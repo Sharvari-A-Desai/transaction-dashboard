@@ -1,0 +1,64 @@
+.App{
+    background-color: rgb(182, 163, 199);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+}
+.logo{
+    text-align: center;
+}
+/* input[type="text"], select {
+    padding: 10px;
+    font-size: 1em;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+} */
+
+.input-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Vertically center the elements */
+    margin-bottom: 20px;
+    padding-left: 20px; /* Adds left space to move the whole container to the right */
+}
+
+
+/* Search bar and dropdown styling */
+input[type="text"], select {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    display: inline-block; /* Make them inline */
+}
+input[type="text"] {
+    margin-left: 20px; /* Moves the input box slightly to the right */
+    margin-right: 20px;
+    margin-top: 30px;
+    height: 10px;
+    width: 100px; 
+     
+}
+
+
+select {
+    margin-top: 20px;
+    margin-left: 170px;
+    padding: 5px;
+    height: 30px;
+    width: 100px; /* You can add some left margin if needed */
+}
+
+body {
+    background-color: #D8C6E5; /* Light purple background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns content at the top */
+    height: 150vh;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}

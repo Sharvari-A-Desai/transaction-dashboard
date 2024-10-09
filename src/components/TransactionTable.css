@@ -1,0 +1,50 @@
+/* General Page Styling */
+body {
+    background-color: #D8C6E5; /* Light purple background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns content at the top */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container to center content */
+transaction-table {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* Search bar and dropdown styling */
+
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #000; /* Table border */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #B299D6; /* Header color */
+    color: #fff;
+}
+
+td {
+    background-color: #F4F0FB;
+}
+
